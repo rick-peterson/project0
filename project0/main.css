@@ -1,0 +1,70 @@
+p span {
+  color: red;
+  font-size: x-large; }
+
+@keyframes blink {
+  from {
+    color: yellow; }
+  to {
+    color: red; } }
+h3 > span {
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+body {
+  background-color: #9cedff; }
+
+tr:hover {
+  background-color: #f5f5f5; }
+
+thead {
+  font-weight: bold;
+  background-color: #f2f2f2; }
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; }
+
+.row > div {
+  padding: 20px;
+  background-color: #fffd9c;
+  border: 2px solid black; }
+
+td, th {
+  border: 2px solid #ddd;
+  text-align: left;
+  padding: 15px; }
+
+.how, .fee {
+  border: 2px solid #ddd;
+  border-collapse: collapse; }
+
+.how {
+  width: 60%; }
+
+.fee {
+  width: 40%; }
+
+nav {
+  background-color: #9cedff; }
+
+#contact {
+  color: #6c757d; }
+
+img {
+  float: right;
+  height: 350;
+  width: 350; }
+
+@media (max-width: 500px) {
+  img {
+    height: auto;
+    max-width: 100%; } }
+.nest {
+  color: #3a4a52; }
+  .nest p {
+    color: #541925; }
+  .nest ul {
+    color: #172f3b; }
+
+/*# sourceMappingURL=main.css.map */
